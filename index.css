@@ -1,0 +1,49 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1 {
+    text-align: center;
+}
+
+
+
+#calculator {
+    border: 2px solid whitesmoke;
+    border-radius: 5px;
+    width: 200px;
+    background-color: aquamarine;
+
+}
+
+#display {
+    margin: 10px;
+    width: 85%;
+    font-size: 25px;
+    background-color: aqua;
+}
+
+.button_container {
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: rgb(183, 198, 123);
+ 
+
+}
+
+.button {
+    width: 30px;
+    height: 40px;
+    margin: 10px;
+    color: blueviolet;
+}
